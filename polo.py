@@ -103,7 +103,7 @@ for k, v in data_from_json.items():
 
 # print(data_from_json['The RL Fleece Striped Short'])
 
-for i in range(240, 245, 1):
+for i in range(263, 266, 1):
     num = int(random.random() * 10)
     time.sleep(num)
     polo_obj = polo_object(data_from_json[skeleton_key[i]])
